@@ -1,0 +1,112 @@
+body {
+
+
+	background-color:  	#282828;
+}
+
+.container {
+
+display: grid;
+margin-left: 400px;
+margin-right: 300px;
+margin-top: 100px;
+grid-gap: 10px;
+grid-template-columns: 1fr 1fr;
+
+}
+
+
+.content {
+
+	display: grid;
+	justify-content: center;
+	padding: 20px;
+	border-radius: 5%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.text {
+  transition: .5s ease;
+  opacity: 0;
+ position: relative;
+ bottom: 50%;
+  left: 98%;
+
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.picture:hover .image {
+/*opacity: 0.1;*/
+ filter: brightness(250%);
+}
+
+.picture:hover .text {
+  opacity: 1;
+}
+
+.text {
+  
+  color: black;
+  font-size: 32px;
+  font-style: bold;
+  
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/*a {
+  cursor: url('marijuana.png'), auto;
+
+  width: 10px;
+  height: 10px;	
+}*/
+
+#cats {
+	cursor: url('cursors/cat.png'), auto;
+
+}
+
+#om {
+	cursor: url('cursors/om.png'), auto;
+}
+
+#drug {
+	cursor: url('cursors/marijuana.png'), auto;
+}
+
+#dog {
+	cursor: url('cursors/dog.png'), auto;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+  
