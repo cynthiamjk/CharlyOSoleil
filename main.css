@@ -187,40 +187,13 @@ opacity: 0;
 }
 
 
-/*a {
-	display: block;
-	background-color: transparent;
-
-	color: black;
-	text-decoration: none;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 3em;
-	padding: 60px 60px;
-	margin: 4px;
-	
-}
-
-a[data]:hover:after {
-  content: attr(data);
-  padding: 4px 8px;
-  color:black;
-  position: absolute;
-  left: 5%;
-  top: 2%;
-  white-space: nowrap;
-  z-index: 1;
-  border-radius: 5px ;
- 
-  font-family: Cherry Swash;
-
-}
 
 
  a:hover{ 
   animation: pulse 1s infinite;
   animation-timing-function: linear;  
   
-}*/
+}
 
 @keyframes pulse {
   0% { transform: scale(1); }
@@ -279,6 +252,8 @@ a:active {
 i:hover {
 
   color: red;
+   animation: pulse 1s infinite;
+  animation-timing-function: linear;  
 
 
 
