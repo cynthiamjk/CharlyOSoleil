@@ -43,8 +43,8 @@ grid-template-columns: 1fr 1fr;
 }
 
 .picture:hover .image {
-/*opacity: 0.1;*/
- filter: brightness(250%);
+opacity: 0.4;
+ 
 }
 
 .picture:hover .text {
@@ -75,12 +75,6 @@ a:active {
   text-decoration: none;
 }
 
-/*a {
-  cursor: url('marijuana.png'), auto;
-
-  width: 10px;
-  height: 10px;	
-}*/
 
 #cats {
 	cursor: url('cursors/cat.png'), auto;
